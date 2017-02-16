@@ -1,12 +1,7 @@
-# sonar
-sonarpoc
-use strict;
-sub main()
+#include<iostream>
+using namespace std;
+int main()
 {
-&printmessage();
+    std::cout << "Sonar POC\n";
+    return 0;
 }
-sub printmessage()
-{
-    print "Sonar POC";
-}
-&main();
